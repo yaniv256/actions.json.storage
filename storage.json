@@ -18,10 +18,9 @@
     },
     "private": {
       "path": "scopes/private",
-      "repo": "https://github.com/YOUR-ORG/YOUR-actions.json.storage.private.git",
-      "mount_type": "git_submodule",
+      "mount_type": "local_placeholder",
       "visibility": "private",
-      "description": "PLACEHOLDER — your own owner-only private browsing memory, observations, and unreviewed maps. Point this at your OWN private repo; it is not part of this public example."
+      "description": "PLACEHOLDER folder. Mount your OWN private repo here (see scopes/private/README.md). Not part of this public example."
     }
   }
 }
