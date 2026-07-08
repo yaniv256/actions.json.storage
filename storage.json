@@ -1,0 +1,27 @@
+{
+  "protocol": "actions.json.storage",
+  "version": "0.1.0",
+  "owner": {
+    "type": "person",
+    "id": "your-id"
+  },
+  "visibility": "public",
+  "default_mount": "public",
+  "mounts": {
+    "public": {
+      "path": "scopes/public",
+      "repo": "https://github.com/yaniv256/actions.json.storage.public.git",
+      "mount_type": "git_submodule",
+      "visibility": "public",
+      "default": true,
+      "description": "Reviewed, reusable public site action maps."
+    },
+    "private": {
+      "path": "scopes/private",
+      "repo": "https://github.com/YOUR-ORG/YOUR-actions.json.storage.private.git",
+      "mount_type": "git_submodule",
+      "visibility": "private",
+      "description": "PLACEHOLDER — your own owner-only private browsing memory, observations, and unreviewed maps. Point this at your OWN private repo; it is not part of this public example."
+    }
+  }
+}

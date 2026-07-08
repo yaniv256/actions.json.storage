@@ -1,0 +1,3 @@
+[submodule "scopes/public"]
+	path = scopes/public
+	url = https://github.com/yaniv256/actions.json.storage.public.git
